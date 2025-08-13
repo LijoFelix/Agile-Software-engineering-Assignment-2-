@@ -1,0 +1,33 @@
+@startuml
+class Book {
+    - id : int
+    - title : String
+    - author : String
+    - price : double
+    + getDetails() : String
+}
+
+class Cart {
+    - items : List<Book>
+    + addBook(book : Book)
+    + removeBook(book : Book)
+    + getTotalPrice() : double
+}
+
+class Order {
+    - orderId : int
+    - bookList : List<Book>
+    - totalAmount : double
+    + placeOrder()
+}
+
+class Payment {
+    - amount : double
+    + processPayment() : boolean
+}
+
+Customer "1" --> "1" Cart
+Cart "1" --> "*" Book
+Order "*" --> "*" Book
+Order "1" --> "1" Payment
+@enduml
