@@ -1,7 +1,7 @@
 # Online Bookstore – UML Diagrams:
 
 ## Use Case Diagram:
-![Use Case Diagram](![usecase](https://github.com/user-attachments/assets/47209364-5755-43fa-a409-ee3eaa90cfa1)
+![Use Case Diagram](https://github.com/LijoFelix/Agile-Software-engineering-Assignment-2-/blob/main/usecase.jpg
 )
 
 
