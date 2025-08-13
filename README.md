@@ -6,7 +6,7 @@
 
 
 ## Sequence Diagram:
-![Sequence Diagram](![sequence](https://github.com/user-attachments/assets/7962b86f-8ed3-4b47-9178-772ce1d7271d)
+![Sequence Diagram](https://github.com/LijoFelix/Agile-Software-engineering-Assignment-2-/blob/main/sequence.jpg
 )
 
 ## Class Diagram:
